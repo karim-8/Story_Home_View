@@ -1,0 +1,53 @@
+name: flutter_story_app_concept
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+  - assets/image_01.png
+  - assets/image_02.jpg
+  - assets/image_03.jpg
+  - assets/image_04.jpg
+
+
+
+
+  fonts:
+  - family: SF-Pro-Text-Regular
+    fonts:
+    - asset: assets/SF-Pro-Text-Regular.otf
+
+  - family: SF-Pro-Text-Bold
+    fonts:
+    - asset: assets/SF-Pro-Text-Bold.otf
+
+  - family: Calibre-Semibold
+    fonts:
+    - asset: assets/Calibre Semibold.otf
+
+  - family: CustomIcons
+    fonts:
+    - asset: assets/custom_icons.ttf
+
